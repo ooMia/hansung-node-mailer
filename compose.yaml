@@ -1,0 +1,9 @@
+version: "3"
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: hansung
+      MYSQL_DATABASE: team_5689
+    ports:
+      - 3306:3306
